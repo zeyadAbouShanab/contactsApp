@@ -1,0 +1,77 @@
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #1f1f1f;
+  color: #f0f0f0;
+}
+
+.contact-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contact-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #333;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info .name {
+  font-weight: 500;
+}
+
+.contact-info .phone {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.contact-actions {
+  position: relative;
+}
+
+.contact-actions button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.dropdown-menu button:hover {
+  background: #333;
+}
